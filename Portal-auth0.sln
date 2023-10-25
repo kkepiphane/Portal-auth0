@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal-auth0", "Portal-auth0\Portal-auth0.csproj", "{F30C3081-FC32-40B0-9F89-F7851698F8EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F30C3081-FC32-40B0-9F89-F7851698F8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30C3081-FC32-40B0-9F89-F7851698F8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30C3081-FC32-40B0-9F89-F7851698F8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30C3081-FC32-40B0-9F89-F7851698F8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FE4DFA4-F2D3-48B9-ACDF-668E713AAE05}
+	EndGlobalSection
+EndGlobal
