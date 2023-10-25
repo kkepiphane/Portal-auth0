@@ -33,6 +33,7 @@ namespace Portal_auth0.Controllers
         [Authorize]
         public IActionResult Profile()
         {
+            var userId = User.Claims.FirstOrDefault(c=>c.Type == ClaimTypes.NameIdentifier)?.Value;
             var userProfil = new User
             {
                 UserName = User.Identity.Name,
@@ -54,6 +55,11 @@ namespace Portal_auth0.Controllers
         }
 
         public IActionResult EmailVerification()
+        {
+            return View();
+        }
+
+        public IActionResult AccessDenied()
         {
             return View();
         }
